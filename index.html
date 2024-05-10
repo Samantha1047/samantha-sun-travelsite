@@ -11,6 +11,7 @@
       <div class="logo">
         <h3>Travel Sites</h3>
       </div>
+      <!-- navigation bar -->
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a href="">Home</a></li>
@@ -21,6 +22,7 @@
       </nav>
     </header>
 
+    <!-- Hero section with description, button, and image -->
     <main>
       <section class="hero-section">
         <div class="hero-section__description">
@@ -35,18 +37,55 @@
       </section>
     </main>
 
-    <section class="recommendations">
-      <div class="recommendations__car hawaii">
-        <a href=""><img src="" alt="Hawaii_img" /></a>
+    <!-- recommendations section with three destination cards -->
+    <section class="recommend">
+      <h2 class="recommend__title">Recommendations</h2>
+      <div class="recommend__card hawaii">
+        <a href="./pages/hawaii.html"><img src="./assets/images/hawaii.jpg" alt="Hawaii_img" /></a>
+        <p class="recommend__card--dest-name">Hawaii</p>
       </div>
-      <div class="recommendations__car iceland">
-        <a href=""><img src="" alt="Iceland_img" /></a>
+      <div class="recommend__card iceland">
+        <a href="./pages/iceland.html"><img src="./assets/images/iceland.jpg" alt="Iceland_img" /></a>
+        <p class="recommend__card--dest-name">Iceland</p>
       </div>
-      <div class="recommendations__car greece">
-        <a href=""><img src="" alt="Greece_img" /></a>
+      <div class="recommend__card greece">
+        <a href="./pages/greece.html"><img src="./assets/images/greece.jpg" alt="Greece_img" /></a>
+        <p class="recommend__card--dest-name">Greece</p>
       </div>
     </section>
   </body>
 
-  <footer></footer>
+  <!-- footer with contact, hours, and social -->
+  <footer class="footer">
+    <!-- Contact section -->
+    <section class="contact">
+      <h2 class="footer__title">Contact</h2>
+      <p class="footer__subtitle">EMAIL</p>
+      <p class="footer__content">info@travelsite.com</p>
+    </section>
+
+    <!-- Hours Section with three division for days/hours-->
+    <section class="hours">
+      <h2 class="hours">Hours</h2>
+      <div class="hours__days">
+        <p class="footer__subtitle">MONDAY - FRIDAY</p>
+        <p class="footer__content">9:00 AM - 5:00 PM</p>
+      </div>
+      <div class="hours__days">
+        <p class="footer__subtitle">SATURDAY</p>
+        <p class="footer__content">10:00 AM - 4:00 PM</p>
+      </div>
+      <div class="hours__days">
+        <p class="footer__subtitle">SUNDAY</p>
+        <p class="footer__content">Closed</p>
+      </div>
+    </section>
+
+    <!-- Social section with three logos -->
+    <section class="social">
+      <a href="https://www.instagram.com/"><img src="./assets/images/icon-instagram.png" alt="ins-icon" /></a>
+      <a href="https://www.facebook.com/"><img src="./assets/images/icon-facebook.png" alt="ins-facebook" /></a>
+      <a href="https://twitter.com/"><img src="./assets/images/icon-twitter.png" alt="ins-twitter" /></a>
+    </section>
+  </footer>
 </html>
