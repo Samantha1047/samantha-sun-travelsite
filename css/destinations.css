@@ -29,14 +29,14 @@
     gap:3.5vh;
     background-color: #FFFFFF;
     width:15vw;
-    height:45vh;
+    height:50vh;
     border-radius: 5px;
     text-align: center;
 }
 
 .trip__detail--day{
     border-bottom: 2px solid black;
-    margin:1rem 1rem;
+    margin:1rem 1rem 0 1rem;
 }
 
 .trip__detail--elements{

@@ -1,6 +1,6 @@
 *{
     font-family: Verdana;
-    /* max-width:1280px; */ 
+    max-width:1280px; 
     margin:0;
     padding:0;
 }
@@ -103,7 +103,7 @@
 }
 
 .hours__days{
-    width:10vw;
+    width:12vw;
     vertical-align: top;
 }
 
