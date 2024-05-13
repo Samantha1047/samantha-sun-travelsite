@@ -1,6 +1,7 @@
 *{
     font-family: Verdana;
-    max-width:1280px; 
+    /* max-width:1280px; */
+    /* Idk why set max-width to 1280px shows different view compare to google dev toggle tool, I just adjust layouts based on dev tool  */  
     margin:0;
     padding:0;
 }
