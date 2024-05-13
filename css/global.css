@@ -1,6 +1,8 @@
 *{
     font-family: Verdana;
-    /* max-width:1280px; */
+    max-width:1280px; 
+    margin:0;
+    padding:0;
 }
 
 .header{
@@ -8,7 +10,7 @@
     position:fixed;
     top:0;
     width:100%;
-    height:24px;
+    height:8vh;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,9 +19,9 @@
 .logo{
     display:inline-block;
     color:#335576;
-    margin-left: 114px;
+    margin-left: 6.25vw;
     margin-top: -3px;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .nav{
@@ -31,10 +33,10 @@
     text-align: center;
     display:flex;
     justify-content: space-evenly;
-    gap:20px;
-    margin-right: 111px;
-    font-size: 20px;
-    margin-top: 23px;
+    gap:1.25rem;
+    margin-right: 5vw;
+    font-size: .8rem;
+    margin-top: 1vw;
 }
 
 .nav__item{
@@ -47,57 +49,66 @@
 }
 
 .nav__item--highlight{
-    padding-bottom: 10px;;
+    padding-bottom: 0.6vw;
     border-bottom:4px solid #DB7A4E ;
 }
 
 .footer{
     background-color: #FEFAF5;
     width:100%;
-    padding-top: 55px;
+    padding-top: 3.5vh;
 }
 
 .footer-flex{
-    padding:0 20% 0 17%;
+    padding:0 18% 0 10%;
     display:flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-evenly; 
     gap:10%;
+    padding-bottom:5vh;
 }
 
 .footer__title{
     color:#335576;
     vertical-align: top;
     padding:0;
-    font-size:30px;
+    font-size:1.5rem;
+    margin-bottom:3vh;
 }
 
 .footer__subtitle{
     color:#DB7A4E;
-    font-size:12px;
+    font-size:0.6rem;
 }
 
 .footer__content{
     color:#335576;
-    font-size:1.2rem;
+    font-size:0.8rem;
+    margin-top:1vh;
+}
+
+.contact{
+    padding-left: 4vw;
+}
+
+.contact a{
+    text-decoration: none;
 }
 
 .hours-flex{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    gap:4%;
     padding:0;
-    margin-top:-2%;
 }
 
 .hours__days{
-    width:220px;
+    width:10vw;
     vertical-align: top;
 }
 
 .hours__days--reduce{
-    width:80px;
+    width:3vw;
 }
 
 .social__icon{
@@ -105,12 +116,11 @@
     justify-content: space-evenly;
     gap:40%;
     align-items:end;
-    margin-top:50px;
     
 }
 
 .social img{
     width:auto;
-    height:30px;
+    height:1.5vw;
 }
 
