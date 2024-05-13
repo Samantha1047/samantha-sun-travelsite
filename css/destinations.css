@@ -1,0 +1,46 @@
+.dest{
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+}
+
+.dest__title{
+    margin-left: 6.25vw;
+    padding-top:16vh;
+    color:#FFFFFF;
+    font-size:4rem;
+}
+
+.trip{
+    margin: 5% 18%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.trip__detail{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: normal;
+    gap:3.5vh;
+    background-color: #FFFFFF;
+    width:15vw;
+    height:45vh;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.trip__detail--day{
+    border-bottom: 2px solid black;
+    margin:1rem 1rem;
+}
+
+.trip__detail--elements{
+background-color:#FEFAF5;
+padding:0.5rem;
+margin:0 1rem;
+}
